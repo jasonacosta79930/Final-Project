@@ -1,0 +1,35 @@
+.content {
+    width: 65%;
+    float: left;
+}
+
+li {
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 50px; color: red;
+}
+
+.search-bar {
+    background-color: rgb(232, 213, 213);
+    margin-left:  550px;
+    float: right;
+}
+
+img {
+    width: 200px;
+    border-radius: 120px;
+}
+
+.sidebar {
+    width: 35%;
+    float: left;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.sidebar-nav li {
+    margin: 0;
+    display: block;
+}
