@@ -1,22 +1,40 @@
+
+nav {
+    background-color: grey;
+    background-image: url('https://www.toptal.com/designers/subtlepatterns/uploads/denim.png');
+    padding-top: 5px;
+    }
+
+
+img {
+    width: 330px; height: 270px;
+}
+
+h2 {
+    text-align: right;
+    margin-right: ;
+}
+
+button {
+    background-color: blueviolet;
+    margin-left: 10px;
+    font-size: x-large;
+    margin-left: 50px;
+}
+
+a {
+    text-decoration: none;
+}
 .content {
     width: 65%;
-    float: left;
+    padding: 25px;
+    background-color: rgb(153, 21, 19);
+    display: inline-block
 }
 
 li {
-    vertical-align: middle;
     display: inline-block;
-    margin-left: 50px; color: red;
-}
-
-.search-bar {
-    background-color: rgb(232, 213, 213);
-    margin-left:  550px;
-    float: right;
-}
-
-img {
-    width: 200px;
+    vertical-align: top;
 }
 
 .sidebar {
@@ -25,10 +43,46 @@ img {
 }
 
 .clearfix {
-    clear: both;
+    clear: all;
 }
 
 .sidebar-nav li {
     margin: 0;
     display: block;
 }
+
+input[type=text], select, textarea {
+    width: 20%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #817e7e;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgb(196, 191, 191);
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #0b7e92;
+    padding: 20px;
+  }
+
+  footer {
+    display: block;
+    background-color: orange;
+}
+
