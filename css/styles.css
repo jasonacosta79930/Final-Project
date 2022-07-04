@@ -9,6 +9,7 @@ nav {
     border-radius: 50%;
     display: inline-block;
     vertical-align: top;
+    
 }
 
 img {
@@ -34,7 +35,10 @@ h2 {
 }
 
 h2.flag {
-    position: relative;
+    margin: 0px;
+    text-align: center;
+    margin-left: 50px;
+    opacity: 50%;
 }
 
 button {
