@@ -1,6 +1,6 @@
 body {
     background-color: gray;
-    background-image: url("/img/hero.jpg");
+    background-image: url("../img/hero.jpg");
     background-repeat: no-repeat;
     background-size: 100%;
 }
@@ -71,6 +71,7 @@ li {
     background-color: orange;
     border-radius: 45%;
     padding: 0px;
+    opacity: 85%;
 
 }
 
